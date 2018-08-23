@@ -1,0 +1,9 @@
+D:\Tasks\Code\Task7SQL\Northwind\bin\Debug\Northwind.dacpac
+D:\Tasks\Code\Task7SQL\Northwind\bin\Debug\Northwind.dll
+D:\Tasks\Code\Task7SQL\Northwind\bin\Debug\Northwind.pdb
+D:\Tasks\Code\Task7SQL\Northwind\obj\Debug\Northwind.dll
+D:\Tasks\Code\Task7SQL\Northwind\obj\Debug\Northwind.pdb
+D:\Tasks\Code\Task7SQL\Northwind\obj\Debug\Model.xml
+D:\Tasks\Code\Task7SQL\Northwind\obj\Debug\refactor.xml
+D:\Tasks\Code\Task7SQL\Northwind\obj\Debug\postdeploy.sql
+D:\Tasks\Code\Task7SQL\Northwind\obj\Debug\predeploy.sql
