@@ -40,6 +40,47 @@ USE [$(DatabaseName)];
 
 
 GO
+PRINT N'Dropping [dbo].[FK_Territories_Region]...';
+
+
+GO
+ALTER TABLE [dbo].[Territories] DROP CONSTRAINT [FK_Territories_Region];
+
+
+GO
+PRINT N'Creating [dbo].[Region]...';
+
+
+GO
+CREATE TABLE [dbo].[Region] (
+    [RegionID]          INT        NOT NULL,
+    [RegionDescription] NCHAR (50) NOT NULL,
+    CONSTRAINT [PK_Region] PRIMARY KEY NONCLUSTERED ([RegionID] ASC) ON [PRIMARY]
+) ON [PRIMARY];
+
+
+GO
+PRINT N'Creating [dbo].[FK_Territories_Region]...';
+
+
+GO
+ALTER TABLE [dbo].[Territories] WITH NOCHECK
+    ADD CONSTRAINT [FK_Territories_Region] FOREIGN KEY ([RegionID]) REFERENCES [dbo].[Region] ([RegionID]);
+
+
+GO
+PRINT N'Checking existing data against newly created constraints';
+
+
+GO
+USE [$(DatabaseName)];
+
+
+GO
+ALTER TABLE [dbo].[Territories] WITH CHECK CHECK CONSTRAINT [FK_Territories_Region];
+
+
+GO
 PRINT N'Update complete.';
 
 

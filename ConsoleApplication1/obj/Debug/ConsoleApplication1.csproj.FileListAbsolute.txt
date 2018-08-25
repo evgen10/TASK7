@@ -1,0 +1,6 @@
+D:\Tasks\Code\Task7SQL\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Tasks\Code\Task7SQL\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Tasks\Code\Task7SQL\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Tasks\Code\Task7SQL\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Tasks\Code\Task7SQL\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Tasks\Code\Task7SQL\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
