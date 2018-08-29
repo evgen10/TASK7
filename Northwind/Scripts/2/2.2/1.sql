@@ -3,9 +3,9 @@
 -- Написать проверочный запрос, который вычисляет количество всех заказов.
 
 
-SELECT  YEAR(o.OrderDate) AS [Year], COUNT(YEAR(o.OrderDate)) AS Total
+SELECT  YEAR(o.OrderDate) AS [Year], COUNT(1) AS Total
 FROM  Orders AS o 
 GROUP BY YEAR(o.OrderDate)
 
-SELECT COUNT(*)
-FROM Orders AS o
+--SELECT COUNT(*)
+--FROM Orders AS o

@@ -1,6 +1,4 @@
 ﻿
-
-
 IF NOT EXISTS (SELECT * 
 			   FROM sys.objects
 			   WHERE object_id = OBJECT_ID(N'[dbo].[Сredit cards]') AND type in (N'U'))
